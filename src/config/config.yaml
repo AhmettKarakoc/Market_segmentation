@@ -1,0 +1,38 @@
+dev:
+  env_identifier: "dev"
+  env_explanation: "DEVELOPMENT"
+  db_prefix: "market_segmentation_dev"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-market_segmentation-dev"
+  elastic_index: "market_segmentation_dev"
+  kafka_topic: "market_segmentation_dev"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+qa:
+  env_identifier: "qa"
+  env_explanation: "QA"
+  db_prefix: "market_segmentation_qa"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-market_segmentation-qa"
+  elastic_index: "market_segmentation_qa"
+  kafka_topic: "market_segmentation_qa"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
+
+prod:
+  env_identifier: "prod"
+  env_explanation: "PRODUCTION"
+  db_prefix: "market_segmentation_prod"
+  gcp_key: "/home/gcp_keys/gcp-key.json"
+  logger_name: "logger-market_segmentation-prod"
+  elastic_index: "market_segmentation_prod"
+  kafka_topic: "market_segmentation_prod"
+  kafka_servers:
+    server1: X.X.X.X:9092
+    server2: X.X.X.X:9092
+    server3: X.X.X.X:9092
